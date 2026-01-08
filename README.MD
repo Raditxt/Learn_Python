@@ -1,36 +1,47 @@
-# Perjalanan Belajar Python
+# Python Learning Journey
 
-Selamat datang di repositori ini! Ini adalah dokumentasi dan kode dari perjalanan saya belajar bahasa pemrograman Python. Repositori ini akan berkembang seiring dengan kemajuan belajar saya, mulai dari dasar hingga topik lanjutan.
+Welcome to this repository! This is a documentation and collection of code from my journey learning the Python programming language. This repository will evolve as my learning progresses, from basics to advanced topics.
 
-## Deskripsi
+## Description
 
-Repositori ini berisi berbagai file Python yang saya buat selama proses belajar. Setiap file fokus pada topik tertentu, dengan komentar dan contoh kode untuk memudahkan pemahaman.
+This repository contains various Python files created during my learning process. Each file focuses on a specific topic, with comments and code examples to facilitate understanding.
 
-## Struktur File
+## File Structure
 
-- `Basic_Syntax.py`: File untuk mempelajari sintaks dasar Python, seperti variabel, tipe data, operator, dan struktur kontrol.
+- `Basic_Syntax.py`: File for learning basic Python syntax, such as variables, data types, operators, and control structures.
+- `Variables/`: Folder containing files related to Python variables.
+  - `Variables_in_Python.py`: Introduction to variables in Python, explained simply using the Feynman Technique.
+  - `Working_With_Variables.py`: How to work with variables in Python, including expressions, counters, and input/output.
 
-## Cara Menjalankan
+## How to Run
 
-Untuk menjalankan file Python, pastikan Anda memiliki Python terinstal di sistem Anda. Gunakan perintah berikut di terminal:
+To run a Python file, ensure you have Python installed on your system. Use the following command in the terminal:
 
 ```
 python Basic_Syntax.py
 ```
 
-## Topik yang Dipelajari
+Or for files in the Variables folder:
 
-- Sintaks Dasar Python
-- Variabel dan Tipe Data
-- Operator
-- Struktur Kontrol (if-else, loop)
-- Fungsi
-- (Akan ditambahkan topik lainnya seiring waktu)
+```
+python Variables/Variables_in_Python.py
+python Variables/Working_With_Variables.py
+```
 
-## Kontribusi
+## Topics Learned
 
-Repositori ini bersifat pribadi untuk dokumentasi belajar saya, tetapi saran dan koreksi selalu diterima!
+- Basic Python Syntax
+- Variables and Data Types
+- Working with Variables (expressions, counters, input/output)
+- Operators
+- Control Structures (if-else, loops)
+- Functions
+- (More topics will be added over time)
 
-## Lisensi
+## Contribution
 
-Tidak ada lisensi khusus. Kode ini untuk tujuan edukasi.
+This repository is personal for my learning documentation, but suggestions and corrections are always welcome!
+
+## License
+
+No specific license. This code is for educational purposes.
