@@ -429,7 +429,7 @@ MANDATORY RULES:
 5. ❌ Not Allowed: Python keywords (if, for, class, etc.)
 
 BEST STYLE (Pythonic):
-1. 🐍 Use SNAKE CASE: long_variable_name
+1. 🐍 Use SNAKE CASE: long_variable_name    
 2. 📝 Use DESCRIPTIVE names (not generic)
 3. 🔤 Avoid abbreviations (unless very common)
 4. 📊 For list/dict: use PLURAL (fruits, users)
