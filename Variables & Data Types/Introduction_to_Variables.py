@@ -1,4 +1,3 @@
-# Introduction_to_Variables.py
 """
 This script explains Python variables in a simple way
 that can be understood even by a 5-year-old child (using the Feynman Technique).

@@ -1,4 +1,3 @@
-# Working_With_Variables.py
 """
 This script explains how to work with variables in Python in a simple way
 that can be understood even by a 5-year-old child (using the Feynman Technique).

@@ -1,4 +1,3 @@
-# Complementary_Ways_to_Create_Variables.py
 """
 This script explains complementary ways to create variables in Python
 in a simple way that can be understood even by a 5-year-old (using Feynman Technique).

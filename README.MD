@@ -9,23 +9,28 @@ Welcome to my Python learning journey repository! This is a comprehensive collec
 ## 📚 Repository Structure
 
 ```
-Python_Learning_Journey/
+Learn_Python/
 │
 ├── Basic_Syntax.py                    # Python syntax fundamentals
 │
-├── Variables/
-│   ├── Variables_in_Python.py         # Introduction to variables
+├── Variables & Data Types/
+│   ├── Introduction_to_Variables.py   # Introduction to variables
 │   ├── Working_With_Variables.py      # Practical variable usage
-│   ├── Naming_Variables.py            # Variable naming conventions
+│   ├── Variable_Naming_Guide.py       # Variable naming conventions
 │   ├── Exploring_Core_Features_of_Variables.py  # Advanced concepts
 │   └── Complementary_Ways_to_Create_Variables.py # Alternative methods
 │
-├── Scopes/
-│   └── Understanding_Variable_Scopes.py # Variable scope explained
+├── String/
+│   ├── Custom_String_Formatting.py    # Custom formatting techniques
+│   ├── Format_String_Syntax.py        # Format string syntax
+│   ├── Helper_Functions_capwords.py   # String helper functions
+│   ├── String_constants.py            # String constants and literals
+│   └── Template_Strings.py            # Template string usage
 │
-├── examples/                          # Example projects
-├── exercises/                         # Practice exercises
-└── README.md                          # This file
+├── Conditionals/                      # Control flow conditions
+│
+├── README.md                          # This file
+└── Other resources                    # Additional learning materials
 ```
 
 ## 🚀 Getting Started
@@ -40,33 +45,36 @@ Python_Learning_Journey/
 # Basic syntax
 python Basic_Syntax.py
 
-# Variables module
-python Variables/Variables_in_Python.py
-python Variables/Working_With_Variables.py
-python Variables/Naming_Variables.py
-python Variables/Exploring_Core_Features_of_Variables.py
-python Variables/Complementary_Ways_to_Create_Variables.py
+# Variables & Data Types module
+python "Variables & Data Types/Introduction_to_Variables.py"
+python "Variables & Data Types/Working_With_Variables.py"
+python "Variables & Data Types/Variable_Naming_Guide.py"
+python "Variables & Data Types/Exploring_Core_Features_of_Variables.py"
+python "Variables & Data Types/Complementary_Ways_to_Create_Variables.py"
 
-# Scopes module
-python Scopes/Understanding_Variable_Scopes.py
+# String module
+python String/Custom_String_Formatting.py
+python String/Format_String_Syntax.py
+python String/Helper_Functions_capwords.py
+python String/String_constants.py
+python String/Template_Strings.py
 ```
 
 ## 📖 Learning Path
 
 ### Level 1: Python Fundamentals ✅
 - [x] **Basic Syntax** - Python syntax, indentation, comments
-- [x] **Variables** - Creation, assignment, and basic operations
-- [x] **Data Types** - Strings, numbers, lists, dictionaries
-- [x] **Operators** - Arithmetic, comparison, logical operators
+- [x] **Variables & Data Types** - Creation, assignment, naming, and basic operations
+- [x] **String Manipulation** - Formatting, constants, templates, helper functions
 
-### Level 2: Working with Variables ✅
-- [x] **Variable Usage** - Counters, accumulators, flags
-- [x] **Naming Conventions** - PEP 8, best practices
-- [x] **Core Features** - References, dynamic typing, type hints
-- [x] **Creation Methods** - Parallel assignment, unpacking, walrus operator
-- [x] **Variable Scopes** - LEGB rule, global/local/nonlocal
+### Level 2: String Operations ✅
+- [x] **Format String Syntax** - f-strings and format methods
+- [x] **Custom String Formatting** - Advanced formatting techniques
+- [x] **String Constants** - String literals and constants
+- [x] **Template Strings** - Template string usage
+- [x] **Helper Functions** - Built-in string functions like capwords()
 
-### Level 3: Control Flow (Coming Soon)
+### Level 3: Control Structures (In Progress)
 - [ ] **Conditionals** - if/elif/else statements
 - [ ] **Loops** - for and while loops
 - [ ] **Functions** - Defining and using functions
@@ -74,7 +82,7 @@ python Scopes/Understanding_Variable_Scopes.py
 ### Level 4: Data Structures (Coming Soon)
 - [ ] **Lists & Tuples** - Sequence operations
 - [ ] **Dictionaries & Sets** - Key-value pairs and unique collections
-- [ ] **Strings** - String manipulation methods
+- [ ] **Advanced Topics** - Comprehensions, iterators
 
 ## 🎯 Key Features
 
@@ -99,21 +107,15 @@ Every script is designed to explain concepts as if teaching a 5-year-old:
 
 ## 🧠 What You'll Learn
 
-### From Basic_Syntax.py:
-```python
-# Simple print statement
-print("Hello, World!")
-
-# Variables and types
-name = "Alice"          # String
-age = 25               # Integer
-height = 165.5         # Float
-is_student = True      # Boolean
-```
-
-### From Variables_in_Python.py:
+### From Variables & Data Types:
 ```python
 # Variable creation and usage
+name = "Alice"            # String
+age = 25                 # Integer
+height = 165.5          # Float
+is_student = True       # Boolean
+
+# Working with variables
 counter = 0
 total = 0
 for number in [1, 2, 3, 4]:
@@ -122,32 +124,52 @@ for number in [1, 2, 3, 4]:
 print(f"Count: {counter}, Total: {total}")
 ```
 
-### From Understanding_Variable_Scopes.py:
+### From String Manipulation:
 ```python
-# Understanding scope
-global_var = "I'm global"
+# Format strings
+name = "Python"
+version = 3.11
+print(f"Learning {name} {version}")  # f-strings
 
-def my_function():
-    local_var = "I'm local"
-    print(global_var)    # Can access global
-    print(local_var)     # Can access local
+# Template strings
+from string import Template
+template = Template('$greeting World!')
+message = template.substitute(greeting='Hello')
 
-my_function()
+# String helper functions
+from string import capwords
+phrase = "hello world"
+print(capwords(phrase))  # Hello World
+```
+
+### From Conditionals (In Progress):
+```python
+# Control flow with if/else
+user_age = int(input("Enter age: "))
+if user_age >= 18:
+    print("You are an adult")
+else:
+    print("You are a minor")
 ```
 
 ## 📊 Progress Tracker
 
-| Topic | Status | Notes |
+| Topic | Status | Files |
 |-------|--------|-------|
-| Basic Syntax | ✅ Complete | All fundamental syntax covered |
-| Variables Introduction | ✅ Complete | Variables, data types, assignment |
-| Working with Variables | ✅ Complete | Expressions, counters, accumulators |
-| Variable Naming | ✅ Complete | PEP 8, best practices, conventions |
-| Core Features | ✅ Complete | References, dynamic typing, type hints |
-| Creation Methods | ✅ Complete | Unpacking, parallel assignment, walrus |
-| Variable Scopes | ✅ Complete | LEGB rule, global/local/nonlocal |
-| Control Structures | 🔄 In Progress | if/else, loops |
-| Functions | ⏳ Planned | Defining and using functions |
+| Basic Syntax | ✅ Complete | Basic_Syntax.py |
+| Variables Introduction | ✅ Complete | Introduction_to_Variables.py |
+| Working with Variables | ✅ Complete | Working_With_Variables.py |
+| Variable Naming | ✅ Complete | Variable_Naming_Guide.py |
+| Core Features | ✅ Complete | Exploring_Core_Features_of_Variables.py |
+| Creation Methods | ✅ Complete | Complementary_Ways_to_Create_Variables.py |
+| Format String Syntax | ✅ Complete | Format_String_Syntax.py |
+| Custom String Formatting | ✅ Complete | Custom_String_Formatting.py |
+| String Constants | ✅ Complete | String_constants.py |
+| Template Strings | ✅ Complete | Template_Strings.py |
+| String Helpers | ✅ Complete | Helper_Functions_capwords.py |
+| Conditionals | 🔄 In Progress | Conditionals/ |
+| Functions | ⏳ Planned | Not yet started |
+| Advanced Topics | ⏳ Planned | Not yet started |
 
 ## 🛠️ Development
 

@@ -1,4 +1,3 @@
-# variable_naming_guide.py
 """
 This script explains how to name variables in Python in a simple way,
 understandable even for a 5-year-old (using the Feynman Technique).

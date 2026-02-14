@@ -1,4 +1,3 @@
-# Basic_Syntax.py
 """
 This script explains basic Python syntax in a simple way
 that can be understood even by a 5-year-old child (using the Feynman Technique).
