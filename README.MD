@@ -28,9 +28,16 @@ Learn_Python/
 │   └── Template_Strings.py            # Template string usage
 │
 ├── Conditionals/                      # Control flow conditions
+│   ├── Introduction_to_the_if_Statement.py # if statement basics
+│   ├── Else_and_Elif_Clauses.py           # Branching logic
+│   ├── Conditional_Expressions.py         # Ternary operators
+│   ├── One_Line_if_Statements.py          # Inline conditionals
+│   ├── Grouping_Statements_Indentation.py # Code organization
+│   ├── The_Match_Case_Statement.py        # Pattern matching (Python 3.10+)
+│   └── The_Python_pass_Statement.py       # Placeholder statements
 │
 ├── README.md                          # This file
-└── Other resources                    # Additional learning materials
+└── LICENSE                            # Educational license
 ```
 
 ## 🚀 Getting Started
@@ -58,6 +65,15 @@ python String/Format_String_Syntax.py
 python String/Helper_Functions_capwords.py
 python String/String_constants.py
 python String/Template_Strings.py
+
+# Conditionals module
+python Conditionals/Introduction_to_the_if_Statement.py
+python Conditionals/Else_and_Elif_Clauses.py
+python Conditionals/Conditional_Expressions.py
+python Conditionals/One_Line_if_Statements.py
+python Conditionals/Grouping_Statements_Indentation.py
+python Conditionals/The_Match_Case_Statement.py
+python Conditionals/The_Python_pass_Statement.py
 ```
 
 ## 📖 Learning Path
@@ -74,8 +90,8 @@ python String/Template_Strings.py
 - [x] **Template Strings** - Template string usage
 - [x] **Helper Functions** - Built-in string functions like capwords()
 
-### Level 3: Control Structures (In Progress)
-- [ ] **Conditionals** - if/elif/else statements
+### Level 3: Control Structures ✅
+- [x] **Conditionals** - if/elif/else statements, match/case, ternary operators
 - [ ] **Loops** - for and while loops
 - [ ] **Functions** - Defining and using functions
 
@@ -142,7 +158,7 @@ phrase = "hello world"
 print(capwords(phrase))  # Hello World
 ```
 
-### From Conditionals (In Progress):
+### From Conditionals:
 ```python
 # Control flow with if/else
 user_age = int(input("Enter age: "))
@@ -150,6 +166,16 @@ if user_age >= 18:
     print("You are an adult")
 else:
     print("You are a minor")
+
+# Ternary operator (conditional expression)
+status = "Adult" if user_age >= 18 else "Minor"
+
+# Match/case statement (Python 3.10+)
+match user_age:
+    case 18:
+        print("Just turned adult!")
+    case _:
+        print("Some other age")
 ```
 
 ## 📊 Progress Tracker
@@ -167,9 +193,15 @@ else:
 | String Constants | ✅ Complete | String_constants.py |
 | Template Strings | ✅ Complete | Template_Strings.py |
 | String Helpers | ✅ Complete | Helper_Functions_capwords.py |
-| Conditionals | 🔄 In Progress | Conditionals/ |
+| If Statement | ✅ Complete | Introduction_to_the_if_Statement.py |
+| Else & Elif | ✅ Complete | Else_and_Elif_Clauses.py |
+| Conditional Expressions | ✅ Complete | Conditional_Expressions.py |
+| One-Line If | ✅ Complete | One_Line_if_Statements.py |
+| Indentation | ✅ Complete | Grouping_Statements_Indentation.py |
+| Match/Case | ✅ Complete | The_Match_Case_Statement.py |
+| Pass Statement | ✅ Complete | The_Python_pass_Statement.py |
+| Loops | ⏳ Planned | Not yet started |
 | Functions | ⏳ Planned | Not yet started |
-| Advanced Topics | ⏳ Planned | Not yet started |
 
 ## 🛠️ Development
 
